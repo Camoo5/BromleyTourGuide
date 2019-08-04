@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_history_of_bromley"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/history" />
+        <item
+            android:id="@+id/nav_culture"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/culture" />
+        <item
+            android:id="@+id/nav_historic"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/historic" />
+        <item
+            android:id="@+id/nav_public_places"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/public_places" />
+        <item
+            android:id="@+id/nav_places_to_eat"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/places_to_eat" />
+
+
+    </group>
+
+
+
+</menu>
